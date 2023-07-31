@@ -5,10 +5,9 @@
  */
 
 $routes = [
-  // pages routes
-  
-  
-  // error routes
-  'error404' => 'error404.php'
-  // ...
+    // pages routes
+
+    // error routes
+    'error404' => 'error404.php',
+    // ...
 ];
