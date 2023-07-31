@@ -6,6 +6,7 @@
 
 $routes = [
     // pages routes
+    'items' => 'demo_items.php',
 
     // error routes
     'error404' => 'error404.php',

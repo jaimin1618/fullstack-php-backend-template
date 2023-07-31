@@ -8,7 +8,7 @@ error_reporting(E_ALL);
 
 if ($_SERVER['REQUEST_URI'] === '/') {
     header("Content-Type: text/html");
-    echo html_entity_decode("<html><head><title>Main</title></head><body><h1>index.php</h1></body></html>");
+    echo html_entity_decode("<html><head><title>Main</title></head><body><h1>Home Page: GET /</h1></body></html>");
 }
 
 require_once __DIR__ . '/../init.php';
